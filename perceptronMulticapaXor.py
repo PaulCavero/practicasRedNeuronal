@@ -9,7 +9,6 @@ matrizEntrada = np.matrix([[0,0],
 matrizSalidas = np.matrix([[-1,1,1,-1]]).T
 
 numeroNeuronas = 30
-ep = 1
 
 matrizPesosCapaOculta =  np.matrix(np.random.uniform(-1.0,1.0,(numeroNeuronas,2)))
 matrizUmbralCapaOculta=  np.matrix(np.random.uniform(-1.0,1.0,(numeroNeuronas,1)))
