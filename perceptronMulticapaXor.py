@@ -18,7 +18,7 @@ matrizUmbralCapaSalida=  np.matrix(np.random.uniform(-1.0,1.0,(1,1)))
 vectorError = []
 alfa = 0.001
 
-for i in range(0, 20000):   
+for i in range(0, 10000):   
      sum=0
      for j in range(0, len(matrizEntrada)):   
         tempCalculoSalida= matrizPesosCapaOculta*matrizEntrada[j].T  + matrizUmbralCapaOculta
