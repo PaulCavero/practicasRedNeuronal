@@ -18,7 +18,7 @@ matrizUmbralCapaSalida=  np.matrix(np.random.uniform(-1.0,1.0,(1,1)))
 vectorError = []
 alfa = 0.001
 
-for i in range(0, 10000):   
+for i in range(0, 20000):   
      sum=0
      for j in range(0, len(matrizEntrada)):   
         tempCalculoSalida= matrizPesosCapaOculta*matrizEntrada[j].T  + matrizUmbralCapaOculta
@@ -58,8 +58,6 @@ for j in range(0, len(matrizEntrada)):
         salidaCapaOcultaFinal =np.tanh(tempCalculoSalidaFinal)           
         print(matrizSalidas[j])
         print(round(salidaCapaOcultaFinal.item(0),0))
-
-
 
 
 plt.subplot(1,2,1)
