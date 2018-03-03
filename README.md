@@ -1,0 +1,2 @@
+# practi
+algoritmos red Neuronal
